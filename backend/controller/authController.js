@@ -48,7 +48,10 @@ export const logInUser=async(req,res)=>{
         return res.status(400).json({error:"invalid user name or password"})
     }
     generateWebToken(user._id,res)
-    res.status(201).json("login sucesfull")
+    res.status(201).json({_id: user._id,
+        fullName: user.fullName,
+        userName: user.userName,
+        profilePic: user.profilePic,})
 
 
     } 

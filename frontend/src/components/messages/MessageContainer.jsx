@@ -1,7 +1,7 @@
 import MessageInput from "./MessageInput";
 import Messages from "./Messages";
 import { TiMessages } from "react-icons/ti";
-import useConversation from "../../../zustand/useConversation";
+import useConversation from "../../zustand/useConversation";
 import { useEffect } from "react";
 
 export default function MessageContainer() {
