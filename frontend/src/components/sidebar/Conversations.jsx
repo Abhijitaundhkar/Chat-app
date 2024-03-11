@@ -4,7 +4,6 @@ import Conversation from "./Conversation";
 
 export default function Conversations() {
   const { loading, conversations } = useGetConversation();
-  console.log("conv", conversations);
   return (
     <div className="py-2 flex flex-col overflow-auto">
       {conversations.map((conversation, idx) => (
