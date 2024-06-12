@@ -1,5 +1,5 @@
 #Online Chat-application
 
-#React NodeJs Socket.IO ExpressJs MongoDB
+#ReactJs, NodeJs Socket.IO ExpressJs MongoDB
 
 
